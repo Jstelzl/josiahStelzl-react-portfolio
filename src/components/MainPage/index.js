@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import NavBar from '../NavBar';
+import About from '../About';
+import ContactMe from '../ContactMe';
+import Footer from '../Footer';
 import bootstrap from 'bootstrap';
 
 export default function MainPage() {
@@ -15,11 +18,13 @@ export default function MainPage() {
 
         return <ContactMe />
     }
-
+    const handlePageChange = (updatePage) => pageChange(updatePage);
 
     return (
         <div>
-
+            <NavBar page={page} handlePageChange={handlePageChange} />
+            {showPage()}
+        <Footer />
         </div>
     );
 }
