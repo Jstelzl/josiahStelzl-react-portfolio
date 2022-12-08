@@ -24,7 +24,8 @@ export default function MainPage() {
         <div>
             <NavBar page={page} handlePageChange={handlePageChange} />
             {showPage()}
-        <Footer />
+            
+            <Footer />
         </div>
     );
 }

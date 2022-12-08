@@ -4,17 +4,48 @@ import bootstrap from 'bootstrap'
 function NavBar({ page, pageChange }) {
 
     return(
-        <nav className='navbar navbar-expand-lg bg-dark'>
-            <div className='container-fluid bg-dark justify-content-center'>
+        <nav className='navbar navbar-expand-lg'>
+            <div className='container-fluid justify-content-center'>
                 <div className='bg-dark' id='NavBar'>
-                    <ul className='nav bg-dark'>
-                        <li className='nav-item bg-dark'>
+                    <ul className='nav'>
+                        {/* resume */}
+                        <li className='nav-item'>
                             <a 
                                 href='#resume'
                                 onClick={() => pageChange('resume')}
-                                className={page === 'resume' ? 'nav-link active text-info text-opacity-75 bg-dark' : 'nav-link text-secondary'}
+                                className={page === 'resume' ? 'nav-link active text-info text-opacity-15' : 'nav-link text-secondary'}
                             > 
                             Resume
+                            </a>
+                        </li>
+                        {/* About */}
+                        <li className='nav-item'>
+                            <a 
+                                href='#about'
+                                onClick={() => pageChange('about')}
+                                className={page === 'about' ? 'nav-link active text-info text-opacity-15' : 'nav-link text-secondary'}
+                            > 
+                            About
+                            </a>
+                        </li>
+                        {/* Portfolio */}
+                        <li className='nav-item'>
+                            <a 
+                                href='#portfolio'
+                                onClick={() => pageChange('portfolio')}
+                                className={page === 'portfolio' ? 'nav-link active text-info text-opacity-15' : 'nav-link text-secondary'}
+                            > 
+                            Portfolio
+                            </a>
+                        </li>
+                        {/* Contacts */}
+                        <li className='nav-item'>
+                            <a 
+                                href='#contact'
+                                onClick={() => pageChange('contact')}
+                                className={page === 'contact' ? 'nav-link active text-info text-opacity-15' : 'nav-link text-secondary'}
+                            > 
+                            Contact Me
                             </a>
                         </li>
                     </ul>
