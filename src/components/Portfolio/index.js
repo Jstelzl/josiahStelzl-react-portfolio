@@ -1,19 +1,30 @@
-import React, { useState } from 'react'
-import Project from '../Projects';
-import bootstrap from 'bootstrap'
+import React from 'react';
+import MyProjects from '../Projects';
+import HotShots from '../../assets/photos/hot-shots.png'
+import bootstrap from "bootstrap";
 
-function myPortfolio() {
-    const [projects] = useState([{}])
+const accomplishments = [
+    {
+        image: HotShots,
+        title: 'Hot-Shots',
+        app: 'https://boiling-caverns-86509.herokuapp.com/',
+        repo: 'https://github.com/APetersen11/Hot-Shots',
+    },
+];
+
+function MyPortfolio() {
 
     return (
-        <div>
-            <div className='projectContainer'>
-                {projects.map((project) => (
-                    < Project project={Project} />
-                ))}
+        < React.Fragment >
+            <div class='container'>
+                <div class='row row-col-1 row-cols-md g-4'>
+                    {accomplishments.map((accomplishments) => (
+                        <MyProjects item={accomplishments} />
+                    ))}
+                </div>
             </div>
-        </div>
+        </React.Fragment>
     );
 }
 
-export default myPortfolio;
+export default MyPortfolio;

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import NavBar from '../NavBar';
 import About from '../About';
 import ContactMe from '../ContactMe';
+import MyPortfolio from '../Portfolio';
 import Footer from '../Footer';
 import bootstrap from 'bootstrap';
 
@@ -13,11 +14,18 @@ export default function MainPage() {
         if (page === 'About') {
             return <About />;
         }
-        
-
-
+        if ( page === 'Portflolio') {
+            return <MyPortfolio />
+        }
+        // if ( page === 'Resume') {
+        //     return <Resume />
+        // }
+        if ( page === 'ContactMe') {
+            return <ContactMe />
+        }
         return <ContactMe />
-    }
+    };
+    
     const handlePageChange = (updatePage) => pageChange(updatePage);
 
     return (

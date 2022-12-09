@@ -13,4 +13,4 @@ function myProjects({ projects }) {
     )
 }
 
-export default Project;
+export default myProjects;
