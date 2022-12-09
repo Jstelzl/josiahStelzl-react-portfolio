@@ -1,7 +1,7 @@
 import React from 'react';
 import bootstrap from 'bootstrap'
 
-function NavBar({ page, pageChange }) {
+function NavBar({ page, handlePageChange }) {
 
     return(
         <nav className='navbar navbar-expand-lg'>
@@ -12,7 +12,7 @@ function NavBar({ page, pageChange }) {
                         <li className='nav-item'>
                             <a 
                                 href='#resume'
-                                onClick={() => pageChange('resume')}
+                                onClick={() => handlePageChange('resume')}
                                 className={page === 'resume' ? 'nav-link active text-info text-opacity-15' : 'nav-link text-secondary'}
                             > 
                             Resume
@@ -22,7 +22,7 @@ function NavBar({ page, pageChange }) {
                         <li className='nav-item'>
                             <a 
                                 href='#about'
-                                onClick={() => pageChange('about')}
+                                onClick={() => handlePageChange('about')}
                                 className={page === 'about' ? 'nav-link active text-info text-opacity-15' : 'nav-link text-secondary'}
                             > 
                             About
@@ -32,7 +32,7 @@ function NavBar({ page, pageChange }) {
                         <li className='nav-item'>
                             <a 
                                 href='#portfolio'
-                                onClick={() => pageChange('portfolio')}
+                                onClick={() => handlePageChange('portfolio')}
                                 className={page === 'portfolio' ? 'nav-link active text-info text-opacity-15' : 'nav-link text-secondary'}
                             > 
                             Portfolio
@@ -42,7 +42,7 @@ function NavBar({ page, pageChange }) {
                         <li className='nav-item'>
                             <a 
                                 href='#contact'
-                                onClick={() => pageChange('contact')}
+                                onClick={() => handlePageChange('contact')}
                                 className={page === 'contact' ? 'nav-link active text-info text-opacity-15' : 'nav-link text-secondary'}
                             > 
                             Contact Me
