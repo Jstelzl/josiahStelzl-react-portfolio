@@ -20,12 +20,9 @@ export default function MainPage() {
         // if ( page === 'Resume') {
         //     return <Resume />
         // }
-        if ( page === 'ContactMe') {
-            return <ContactMe />
-        }
         return <ContactMe />
     };
-    
+
     const handlePageChange = (updatePage) => pageChange(updatePage);
 
     return (

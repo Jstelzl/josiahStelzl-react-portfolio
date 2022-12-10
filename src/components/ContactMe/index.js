@@ -36,7 +36,7 @@ function ContactForm() {
     };
 
     return (
-        <body className='bg-dark mx-auto'>
+        <body className='mx-auto'>
             <h1 data-testid="h1tag">Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
