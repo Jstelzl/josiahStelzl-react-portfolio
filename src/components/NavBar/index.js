@@ -1,4 +1,5 @@
 import React from 'react';
+//import headerImage from '../../assets/photos/header-image.jpeg';
 import bootstrap from 'bootstrap'
 
 function NavBar({ page, handlePageChange }) {
@@ -6,7 +7,7 @@ function NavBar({ page, handlePageChange }) {
     return(
         <nav className='navbar navbar-expand-lg'>
             <div className='container-fluid justify-content-center'>
-                <div className='bg-dark' id='NavBar'>
+                <div>
                     <ul className='nav'>
                         {/* resume */}
                         <li className='nav-item'>
