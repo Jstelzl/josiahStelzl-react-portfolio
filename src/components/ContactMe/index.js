@@ -36,31 +36,54 @@ function ContactForm() {
     };
 
     return (
-        <body className='mx-auto bg-dark'>
+        <body className="bg-dark mx-auto">
+            
             <div className="container mx-auto">
                 <div className="row row-cols-1 row-cols-md-2 g-7">
                     <div className="col mx-auto p-4">
-                        <div className='card border bg-dark p-3 align-items-center'>
+                        <div className="card border-info bg-dark p-3 align-items-center">
                             <form id="contact-form" onSubmit={handleSubmit}>
-                                <div className= 'p-3 align-items-center'>
-                                    <label htmlFor="name" />
-                                    <input type="text" placeholder='Enter Name' name="name" defaultValue={name} onBlur={handleChange} />
+                                <div className='p-3 align-items-center'>
+                                    <input
+                                        type="text"
+                                        name="Name"
+                                        defaultValue={name}
+                                        onBlur={handleChange}
+                                        placeholder="Enter Name"
+                                    />
                                 </div>
-                                <div className= 'p-3 align-items-center'>
-                                    <label htmlFor="email" />
-                                    <input type="email" placeholder='Enter Email Address' name="email" defaultValue={email} onBlur={handleChange} />
+                                <div className='p-3 align-items-center'>                                   
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        defaultValue={email}
+                                        onBlur={handleChange}
+                                        placeholder="Enter Email"
+                                    />
                                 </div>
-                                <div className= 'p-3 align-items-center'>
-                                    <label htmlFor="message" />
-                                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                                <div className='p-3 align-items-center'>
+                                    <textarea
+                                        name="Message"
+                                        rows="5"
+                                        defaultValue={message}
+                                        onBlur={handleChange}
+                                        placeholder="Enter Message"
+                                    />
                                 </div>
                                 {errorMessage && (
                                     <div>
-                                        <p className="error-text">{errorMessage}</p>
+                                        <p className="error-text text-info">{errorMessage}</p>
                                     </div>
                                 )}
-                                <div className='p-3 align-items-center'>
-                                    <button data-testid="button" type="submit">Submit</button>
+                                <div className="text-center">
+                                    <button
+                                        data-testid="button"
+                                        type="submit"
+                                        className="btn btn-outline-info"
+                                    >
+                                        Submit
+
+                                    </button>
                                 </div>
                             </form>
                         </div>

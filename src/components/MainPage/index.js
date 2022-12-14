@@ -16,10 +16,10 @@ export default function MainPage() {
         if (page === 'about') {
             return <About />;
         }
-        if (page === 'portflolio') {
+        if (page === 'portfolio') {
             return <MyPortfolio />
         }
-        if (page === 'Resume') {
+        if (page === 'resume') {
             return <Resume />
         }
         if (page === 'contact') {

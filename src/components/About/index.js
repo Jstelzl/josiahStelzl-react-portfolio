@@ -4,16 +4,19 @@ import React, { Component } from 'react';
 export default class index extends Component {
     render() {
         return (
-            <div>
-                <h5>About Me</h5>
-                <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
+            <div className="container-fluid bg-dark">
+                <img className="img-fluid mw-75 mx-auto d-block" />
+                <div className="card mw-75 bg-dark mx-auto d-block">
+                    <div className="card-body text-info">
+                        <h5 className="card-title text-center">About</h5>
+                        <p className="card-text text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
             </div>
         );
     }
