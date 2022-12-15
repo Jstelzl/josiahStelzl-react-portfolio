@@ -7,7 +7,7 @@ export default class index extends Component {
             <div className="container-fluid bg-dark vh-height">
                 <div className="card mw-75 bg-dark mx-auto d-block">
                     <div className="card-body text-info">
-                        <h5 className="card-title text-center">About</h5>
+                        <h5 className="card-title text-center">About Josiah Stelzl</h5>
                         <p className="card-text text-center">
                         My name is Josiah Stelzl. I am 19 years old and I am passionate about coding. <br/>
                         I first was intreaduced to the the coding world in 2019 when I began to teach myself Python. <br/>
