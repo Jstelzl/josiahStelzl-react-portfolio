@@ -6,7 +6,7 @@ import bootstrap from 'bootstrap';
 function Resume() {
     return (
         <React.Fragment>
-            <div className='container-fluid mx-auto bg-dark vh-height'>
+            <div className='container-fluid mx-auto bg-dark vh-height p-5'>
                 <div className='row row-cols-1 row-cols-md-2 g-6'>
                     <div className='col mx-auto p-4'>
                         <div className="card border-info bg-dark p-3 align-items-center">

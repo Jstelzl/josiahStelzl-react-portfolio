@@ -7,7 +7,7 @@ function NavBar({ page, handlePageChange }) {
     return (
 
         <nav className='navbar navbar-expand-lg'>
-            <div className='container-fluid justify-content-center fixed-top bg-dark'>
+            <div className='container-fluid justify-content-center fixed-top bg-dark p-3'>
                 <div>
                     <ul className='nav'>
                         {/* resume */}

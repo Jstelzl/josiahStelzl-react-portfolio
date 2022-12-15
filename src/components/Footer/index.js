@@ -5,7 +5,7 @@ function Footer() {
 
     return (
 
-        <div className="d-flex justify-content-center text-info fixed-bottom bg-light">
+        <div className="d-flex justify-content-center text-info fixed-bottom bg-light p-3">
             <a href="https://github.com/Jstelzl" target="_blank" className="btn btn-outline-dark mx-auto col-2">
                 <i className="bi bi-github text-info" />
             </a>

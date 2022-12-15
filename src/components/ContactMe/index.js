@@ -38,7 +38,7 @@ function ContactForm() {
     return (
         <body className="bg-dark mx-auto">
             
-            <div className="container mx-auto vh-height">
+            <div className="container mx-auto vh-height p-5">
                 <div className="row row-cols-1 row-cols-md-2 g-7">
                     <div className="col mx-auto p-4">
                         <div className="card border-info bg-dark p-3 align-items-center">

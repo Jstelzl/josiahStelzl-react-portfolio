@@ -55,7 +55,7 @@ function MyPortfolio() {
             {/* <div className='container-fluid'>
                 <img className='img-fluid mw-75 mx-auto d-block' src={HeaderImage} />
             </div> */}
-            <div className='container vh-height'>
+            <div className='container vh-height p-5'>
                 <div className='row row-col-1 row-cols-md g-4'>
                     {accomplishments.map((proj) => (
                         <MyProjects project={proj} />
