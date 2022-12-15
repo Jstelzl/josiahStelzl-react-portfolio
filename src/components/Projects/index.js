@@ -6,7 +6,7 @@ function MyProjects({ project }) {
 
     return (
         <div className='col-6'>
-            <div className="card">
+            {/* <div className="card"> */}
                 
                 <div className='card'>    
                     <div className="card-body">
@@ -20,7 +20,7 @@ function MyProjects({ project }) {
                         <i className="bi bi-github" />
                         </a>
                     </div>
-                </div>
+                {/* </div> */}
                 <img src={image} className="card-img-top" alt="..."/>
             </div>
         </div>

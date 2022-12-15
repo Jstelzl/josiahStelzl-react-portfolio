@@ -9,7 +9,7 @@ import bootstrap from 'bootstrap';
 
 export default function MainPage() {
 
-    const [page, pageChange] = useState('About');
+    const [page, pageChange] = useState('about');
 
     const showPage = () => {
 

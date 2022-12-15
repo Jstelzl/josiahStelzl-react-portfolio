@@ -38,7 +38,7 @@ function ContactForm() {
     return (
         <body className="bg-dark mx-auto">
             
-            <div className="container mx-auto">
+            <div className="container mx-auto vh-height">
                 <div className="row row-cols-1 row-cols-md-2 g-7">
                     <div className="col mx-auto p-4">
                         <div className="card border-info bg-dark p-3 align-items-center">
@@ -50,6 +50,7 @@ function ContactForm() {
                                         defaultValue={name}
                                         onBlur={handleChange}
                                         placeholder="Enter Name"
+
                                     />
                                 </div>
                                 <div className='p-3 align-items-center'>                                   
