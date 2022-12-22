@@ -30,7 +30,7 @@ const accomplishments = [
     },
     {
         title: 'ARIJ',
-        link: '',
+        link: 'https://pacific-cliffs-88620.herokuapp.com/',
         repo: 'https://github.com/Jstelzl/arij',
         image: CheckLogo,
     },
