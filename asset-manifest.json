@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/josiah-react-portfolio/static/css/main.9ffd3da3.css",
-    "main.js": "/josiah-react-portfolio/static/js/main.a7cb3f79.js",
+    "main.js": "/josiah-react-portfolio/static/js/main.8bc2e4bd.js",
     "static/js/787.1f501fa4.chunk.js": "/josiah-react-portfolio/static/js/787.1f501fa4.chunk.js",
     "static/media/hot-shots.png": "/josiah-react-portfolio/static/media/hot-shots.f342a1afd41f8895bea0.png",
     "static/media/check-logo-nav.png": "/josiah-react-portfolio/static/media/check-logo-nav.e87a9c5d409719d8b294.png",
@@ -13,11 +13,11 @@
     "static/media/booze-buddy.webp": "/josiah-react-portfolio/static/media/booze-buddy.0ea9e41b00c7e4f71c57.webp",
     "index.html": "/josiah-react-portfolio/index.html",
     "main.9ffd3da3.css.map": "/josiah-react-portfolio/static/css/main.9ffd3da3.css.map",
-    "main.a7cb3f79.js.map": "/josiah-react-portfolio/static/js/main.a7cb3f79.js.map",
+    "main.8bc2e4bd.js.map": "/josiah-react-portfolio/static/js/main.8bc2e4bd.js.map",
     "787.1f501fa4.chunk.js.map": "/josiah-react-portfolio/static/js/787.1f501fa4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ffd3da3.css",
-    "static/js/main.a7cb3f79.js"
+    "static/js/main.8bc2e4bd.js"
   ]
 }
