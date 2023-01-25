@@ -1,6 +1,5 @@
 import React from 'react';
-import ResumeLink from "../../assets/Josiah-Stelzl.pdf";
-import bootstrap from 'bootstrap';
+import ResumeLink from "../../assets/Resume12_27_2022.pdf";
 
 
 function Resume() {

@@ -1,6 +1,6 @@
 import React from 'react';
 import headerImage from '../../assets/photos/header-image.jpeg';
-import bootstrap from 'bootstrap'
+
 
 function NavBar({ page, handlePageChange }) {
 

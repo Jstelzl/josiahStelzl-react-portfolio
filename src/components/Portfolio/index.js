@@ -7,8 +7,6 @@ import CheckLogo from '../../assets/photos/check-logo-nav.png';
 import TaskMaster from '../../assets/photos/taskmaster.jpeg';
 import CodeGeek from '../../assets/photos/code-geek.webp';
 //import HeaderImage from '../../assets/photos/header-image.jpeg';
-import bootstrap from "bootstrap";
-
 const accomplishments = [
     {
         title: 'Hot Shots',

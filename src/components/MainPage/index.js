@@ -5,7 +5,6 @@ import ContactMe from '../ContactMe';
 import Resume from '../Resume';
 import MyPortfolio from '../Portfolio';
 import Footer from '../Footer';
-import bootstrap from 'bootstrap';
 
 export default function MainPage() {
 

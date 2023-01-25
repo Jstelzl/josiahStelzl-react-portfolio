@@ -1,5 +1,5 @@
 import React from 'react'
-import bootstrap from 'bootstrap' 
+ 
 
 function MyProjects({ project }) {
     const { title, link, repo, image } = project
