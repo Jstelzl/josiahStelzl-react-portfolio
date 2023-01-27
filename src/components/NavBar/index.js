@@ -10,16 +10,6 @@ function NavBar({ page, handlePageChange }) {
             <div className='container-fluid justify-content-center fixed-top bg-dark p-3'>
                 <div>
                     <ul className='nav'>
-                        {/* resume */}
-                        <li className='nav-item'>
-                            <a
-                                href='#resume'
-                                onClick={() => handlePageChange('resume')}
-                                className={page === 'resume' ? 'nav-link active text-info text-opacity-15' : 'nav-link text-secondary'}
-                            >
-                                Resume
-                            </a>
-                        </li>
                         {/* About */}
                         <li className='nav-item'>
                             <a
@@ -28,6 +18,16 @@ function NavBar({ page, handlePageChange }) {
                                 className={page === 'about' ? 'nav-link active text-info text-opacity-15' : 'nav-link text-secondary'}
                             >
                                 About
+                            </a>
+                        </li>
+                        {/* resume */}
+                        <li className='nav-item'>
+                            <a
+                                href='#resume'
+                                onClick={() => handlePageChange('resume')}
+                                className={page === 'resume' ? 'nav-link active text-info text-opacity-15' : 'nav-link text-secondary'}
+                            >
+                                Resume
                             </a>
                         </li>
                         {/* Portfolio */}
@@ -41,7 +41,7 @@ function NavBar({ page, handlePageChange }) {
                             </a>
                         </li>
                         {/* Contacts */}
-                        <li className='nav-item'>
+                        {/* <li className='nav-item'>
                             <a
                                 href='#contact'
                                 onClick={() => handlePageChange('contact')}
@@ -49,7 +49,7 @@ function NavBar({ page, handlePageChange }) {
                             >
                                 Contact Me
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

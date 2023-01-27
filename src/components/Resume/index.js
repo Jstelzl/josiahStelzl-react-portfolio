@@ -25,6 +25,8 @@ function Resume() {
                                 - Responsive Design <br/>
                                 - React <br/>
                                 - BootStrap <br/>
+                                - Tailwind <br/>
+                                - Git <br/>
                                 <br/>
                                 Back End: <br/>
 
@@ -35,6 +37,8 @@ function Resume() {
                                 - MongoDB, Mongoose <br/>
                                 - REST <br/>
                                 - GraphQL <br/>
+                                - Express.js <br/>
+                                - Git <br/>
                             </p>
                         </div>
                     </div>
