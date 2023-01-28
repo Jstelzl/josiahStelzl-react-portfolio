@@ -9,10 +9,10 @@ import CodeGeek from '../../assets/photos/code-geek.webp';
 //import HeaderImage from '../../assets/photos/header-image.jpeg';
 const accomplishments = [
     {
-        title: 'Work Day',
-        link: 'https://jstelzl.github.io/WorkDay-Calendar/',
-        repo: 'https://github.com/Jstelzl/WorkDay-Calendar',
-        image: WorkDay,
+        title: 'ARIJ',
+        link: 'https://pacific-cliffs-88620.herokuapp.com/',
+        repo: 'https://github.com/Jstelzl/arij',
+        image: CheckLogo,
     },
     {
         title: 'Git It Done',
@@ -27,12 +27,6 @@ const accomplishments = [
         image: BoozeBuddy,
     },
     {
-        title: 'ARIJ',
-        link: 'https://pacific-cliffs-88620.herokuapp.com/',
-        repo: 'https://github.com/Jstelzl/arij',
-        image: CheckLogo,
-    },
-    {
         title: 'Task Master Pro',
         link: 'https://jstelzl.github.io/taskmaster-pro/',
         repo: 'https://github.com/Jstelzl/taskmaster-pro',
@@ -43,6 +37,12 @@ const accomplishments = [
         link: 'https://nameless-lowlands-33351.herokuapp.com/',
         repo: 'https://github.com/Jstelzl/Code-Geek',
         image: CodeGeek,
+    },
+    {
+        title: 'Work Day',
+        link: 'https://jstelzl.github.io/WorkDay-Calendar/',
+        repo: 'https://github.com/Jstelzl/WorkDay-Calendar',
+        image: WorkDay,
     }
 ];
 
