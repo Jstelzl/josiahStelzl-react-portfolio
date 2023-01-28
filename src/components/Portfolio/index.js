@@ -1,6 +1,6 @@
 import React from 'react';
 import MyProjects from '../Projects';
-import HotShots from '../../assets/photos/hot-shots.png';
+import WorkDay from '../../assets/photos/work-day.png';
 import GitItDone from '../../assets/photos/git-it-done.png';
 import BoozeBuddy from '../../assets/photos/booze-buddy.webp';
 import CheckLogo from '../../assets/photos/check-logo-nav.png';
@@ -9,10 +9,10 @@ import CodeGeek from '../../assets/photos/code-geek.webp';
 //import HeaderImage from '../../assets/photos/header-image.jpeg';
 const accomplishments = [
     {
-        title: 'Hot Shots',
-        link: 'https://boiling-caverns-86509.herokuapp.com/',
-        repo: 'https://github.com/APetersen11/Hot-Shots',
-        image: HotShots,
+        title: 'Work Day',
+        link: 'https://jstelzl.github.io/WorkDay-Calendar/',
+        repo: 'https://github.com/Jstelzl/WorkDay-Calendar',
+        image: WorkDay,
     },
     {
         title: 'Git It Done',
