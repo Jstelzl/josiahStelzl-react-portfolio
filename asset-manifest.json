@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/josiah-react-portfolio/static/css/main.9ffd3da3.css",
+    "main.js": "/josiah-react-portfolio/static/js/main.2547f749.js",
+    "static/js/787.1f501fa4.chunk.js": "/josiah-react-portfolio/static/js/787.1f501fa4.chunk.js",
+    "static/media/check-logo-nav.png": "/josiah-react-portfolio/static/media/check-logo-nav.e87a9c5d409719d8b294.png",
+    "static/media/taskmaster.jpeg": "/josiah-react-portfolio/static/media/taskmaster.73c25095beba38801110.jpeg",
+    "static/media/code-geek.webp": "/josiah-react-portfolio/static/media/code-geek.bc1ef256aaefa7d65156.webp",
+    "static/media/work-day.png": "/josiah-react-portfolio/static/media/work-day.16238989839e97eb9437.png",
+    "static/media/Resume12_27_2022.pdf": "/josiah-react-portfolio/static/media/Resume12_27_2022.2cff774de79592bb22f7.pdf",
+    "static/media/git-it-done.png": "/josiah-react-portfolio/static/media/git-it-done.ff2648078e819f6a9666.png",
+    "static/media/booze-buddy.webp": "/josiah-react-portfolio/static/media/booze-buddy.0ea9e41b00c7e4f71c57.webp",
+    "index.html": "/josiah-react-portfolio/index.html",
+    "main.9ffd3da3.css.map": "/josiah-react-portfolio/static/css/main.9ffd3da3.css.map",
+    "main.2547f749.js.map": "/josiah-react-portfolio/static/js/main.2547f749.js.map",
+    "787.1f501fa4.chunk.js.map": "/josiah-react-portfolio/static/js/787.1f501fa4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ffd3da3.css",
+    "static/js/main.2547f749.js"
+  ]
+}
