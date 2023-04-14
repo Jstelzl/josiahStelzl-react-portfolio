@@ -1,5 +1,4 @@
 import React from 'react';
-import headerImage from '../../assets/photos/header-image.jpeg';
 
 
 function NavBar({ page, handlePageChange }) {
