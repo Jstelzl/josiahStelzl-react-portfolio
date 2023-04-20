@@ -2,7 +2,6 @@ import React from 'react';
 import MyProjects from '../Projects';
 import HotShots from '../../assets/photos/hot-shots.png';
 import HeaderImage from '../../assets/photos/header-image.jpeg';
-import bootstrap from "bootstrap";
 
 const accomplishments = [
     {
